@@ -23,7 +23,7 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl:
+      serverUrl: "https://support.stvprox.net"
         description: 'Server URL'     
         required: true
       rid:
